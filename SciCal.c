@@ -57,7 +57,9 @@ int main()
                 scanf("%f", &x);
                 printf("\nEnter Y: ");
                 scanf("%f", &y);
+                if(y!=0)
                 result = x / y;
+                else result = 0;
                 break;
             case 5:
                 printf("Enter X: ");
@@ -222,7 +224,9 @@ int main()
             printf("\nInvalid Choice!");
         }
         system("clear");
+        printf("**************";
         printf("Result: %.2f\n", result);
+        printf("**************";
     }while (choice_a);
     
 getch();
