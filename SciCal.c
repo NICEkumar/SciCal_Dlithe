@@ -220,14 +220,18 @@ int main()
                 break;
             }
          break;
-            case 6: return 0;
+            case 6: 
+                system("clear");
+                printf("Closed\n");
+
+                return 1;
         default:
             printf("\nInvalid Choice!");
         }
         system("clear");
-        printf("**************";
+        printf("**************\n");
         printf("Result: %.2f\n", result);
-        printf("**************";
+        printf("**************\n");
     }while (choice_a);
     
 getch();
