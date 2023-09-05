@@ -13,7 +13,7 @@ int main()
 
         printf("\nSelect your operation (0 to exit):\n");
         printf("*************\n");
-        printf("1.Arithmetic \n2.Trignometric \n3.Exponential and Logarithmic Functions \n4.Square Root and Cube Root \n5.Conversion Functions etc.\n");
+        printf("1.Arithmetic \n2.Trignometric \n3.Exponential and Logarithmic Functions \n4.Square Root and Cube Root \n5.Conversion Functions etc.\n6.Exit\n");
         printf("*************\n");
         printf("Choice: ");
         scanf("%d", &choice_a);
@@ -219,7 +219,8 @@ int main()
                 result = (x * y) / 100;
                 break;
             }
-            break;
+         break;
+            case 6: return 0;
         default:
             printf("\nInvalid Choice!");
         }
